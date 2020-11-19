@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.AreaSphereWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Colton's Formula Calculator" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="labelAreaSphere" Content="Insert Values" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.614,0.586" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="goAreaSphere" Content="Go!" HorizontalAlignment="Center" Margin="0,355,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Click="goAreaSphere_Click"/>
+        <PasswordBox x:Name="inputAreaSphere" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120"/>
+        <Label x:Name="radiusPointerAreaSphere" Content="Radius" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

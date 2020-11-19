@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Page Update="AreaCircleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CircumferenceCircleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AreaSphereWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AreaConeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SurfaceConeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

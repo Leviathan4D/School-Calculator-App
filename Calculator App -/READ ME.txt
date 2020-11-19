@@ -1,0 +1,15 @@
+how to access app - 
+
+Go to WpfApp1 folder,
+bin, 
+Debug, 
+netcoreapp3.1
+Run the WpfApp1 executable  ONLY THE .EXE
+It should be the 3rd one down
+
+only put in numbers, remember pi is rounded to 3.14
+
+don't be retarded, it's not hard
+
+Go to hell,
+-Colton
